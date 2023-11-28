@@ -11,9 +11,9 @@ public class ScrollLeftEnd {
 		WebDriver	driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
+
 		driver.get("https://dashboards.handmadeinteractive.com/jasonlove/");
-		
+
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		for(int i=0;i<=2;i++) {
 		Thread.sleep(2000);

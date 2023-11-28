@@ -15,9 +15,9 @@ public class getFirstSelectedOptionMethod {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.get("file:///C:/Users/admin/Documents/dropdown1.html");
 	// single select dropdown
-	
+
 	WebElement dropdown1 = driver.findElement(By.id("id1"));
-	
+
 	//handle the dropdown
 Select sel = new Select(dropdown1);
 
@@ -30,9 +30,9 @@ System.out.println(firstopt.getText());
 
 driver.get("file:///C:/Users/admin/Documents/dropdown1.html");
 
-	
-	
+
+
 	}
-	
+
 
 }

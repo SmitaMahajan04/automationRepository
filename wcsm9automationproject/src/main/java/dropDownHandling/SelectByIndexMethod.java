@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SelectByIndexMethod {
 	public static void main(String[] args) throws InterruptedException {
 	WebDriver	driver=new ChromeDriver();
-	
+
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 driver.get("http://demoapps.qspiders.com/dropdown/multiSelect");
@@ -21,7 +21,7 @@ Select ele = new Select(dropDown);
 Thread.sleep(2000);
 for(int i=0;i<=5;i++)
 {
-	
+
 	ele.selectByIndex(i);
 }
 

@@ -13,10 +13,10 @@ public class MockInterview {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.linkText(""));
-		
+
 	}
-	
-	
+
+
 
 
 }

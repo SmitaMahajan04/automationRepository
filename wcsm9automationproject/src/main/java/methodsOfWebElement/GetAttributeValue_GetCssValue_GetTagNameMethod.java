@@ -14,11 +14,11 @@ public class GetAttributeValue_GetCssValue_GetTagNameMethod {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	WebElement loginButton = driver.findElement(By.xpath("//button[text()=' Login ']"));
-	
+
 	Thread.sleep(2000);
 	String atrributeValue = loginButton.getAttribute("class");
 	System.out.println(atrributeValue);
-	
+
 Thread.sleep(2000);
 
 String cssValue = loginButton.getCssValue("color");

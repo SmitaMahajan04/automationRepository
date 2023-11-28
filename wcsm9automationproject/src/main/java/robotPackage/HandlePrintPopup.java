@@ -14,15 +14,15 @@ public class HandlePrintPopup {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.get("https://www.selenium.dev/");
-	
+
 	//generate print pop up ctrl+p
-	
+
 	Robot robot = new Robot();
-	
+
 	//press ctrl+p
 	robot.keyPress(KeyEvent.VK_CONTROL);
 	robot.keyPress(KeyEvent.VK_P);
-	
+
 	//release ctrl+p
 	robot.keyRelease(KeyEvent.VK_CONTROL);
 	robot.keyRelease(KeyEvent.VK_P);
@@ -30,20 +30,20 @@ public class HandlePrintPopup {
 	//handle print pop up
 	robot.keyPress(KeyEvent.VK_TAB);
 	robot.keyRelease(KeyEvent.VK_TAB);
-	
+
 	Thread.sleep(2000);
 	//press enter key
-	
+
 	robot.keyPress(KeyEvent.VK_ENTER);
 	robot.keyRelease(KeyEvent.VK_ENTER);
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 	}
 
 }

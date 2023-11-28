@@ -11,14 +11,14 @@ public class ScrollDown {
 		WebDriver	driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
+
 		driver.get("https://www.selenium.dev/");
-		
+
 		//perform scroll down
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		Thread.sleep(2000);
 		jse.executeScript("window.scrollBy(0,500)");
-		
+
 	}
 
 }

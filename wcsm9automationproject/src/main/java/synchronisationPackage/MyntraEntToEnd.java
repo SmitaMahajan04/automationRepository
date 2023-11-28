@@ -32,11 +32,11 @@ public class MyntraEntToEnd {
 	Thread.sleep(2000);
 	WebElement xl = driver.findElement(By.xpath("//p[text()='XL']"));
 	explicitWait(driver, 30, xl).click();
-	
+
 	driver.findElement(By.name("pincode")).sendKeys("411033");
 	driver.findElement(By.xpath("//input[@value='Check']")).click();
 	}
-	
+
 	public  static WebElement  explicitWait(WebDriver driver,long sec,WebElement ele)
 	{
 	WebDriverWait	wait=new WebDriverWait(driver, Duration.ofSeconds(sec));

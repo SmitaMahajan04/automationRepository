@@ -22,10 +22,10 @@ public class getTextMethod {
 	{
 		System.out.println(phone.getText());
 	}
-	
-	
-	
-	
+
+
+
+
 	}
 
 }

@@ -11,7 +11,7 @@ public class getMethod {
 	driver.get("https://www.flipkart.com/");
 	//driver.manage().window().maximize();
 	Thread.sleep(2000);
-	
+
 	}
 
 }

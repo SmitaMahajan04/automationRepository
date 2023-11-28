@@ -21,8 +21,8 @@ public class MoveToElement1 {
 	Actions act = new Actions(driver);
 	act.moveToElement(coinsTarget).perform();
 	driver.findElement(By.xpath("//span[text()='Coins by Design']")).click();
-	
-	
+
+
 
 	}
 

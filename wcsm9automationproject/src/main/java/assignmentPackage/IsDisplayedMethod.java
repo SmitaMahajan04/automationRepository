@@ -17,10 +17,10 @@ public class IsDisplayedMethod {
 	 driver.findElement(By.id("loginButton")).click();
 	 WebElement lgn =driver.findElement(By.partialLinkText("Logout"));
 		System.out.println(lgn.isDisplayed());
-	
-	
-	
-	
+
+
+
+
 	}
 
 }

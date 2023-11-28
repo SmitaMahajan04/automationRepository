@@ -29,14 +29,14 @@ int xaxis=loc.getX();
   System.out.println("Size of email textbox "+height+": "+width);
   //below line is extra line for more information
   System.out.println(emailTextBox.getCssValue("height")+"  "+emailTextBox.getCssValue("width"));
-  
-  
+
+
   Rectangle rect = emailTextBox.getRect();
   System.out.println(rect.getX()+":"+rect.getY());
   System.out.println(rect.getHeight()+":"+rect.getWidth());
-  
-  
-  
+
+
+
 	}
 
 }

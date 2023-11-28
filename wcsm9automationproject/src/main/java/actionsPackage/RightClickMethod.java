@@ -29,7 +29,7 @@ public class RightClickMethod {
 	{
 		Thread.sleep(2000);
 		System.out.println("displayed");
-		
+
 	}
 	else
 	{
@@ -38,15 +38,15 @@ public class RightClickMethod {
 	Thread.sleep(2000);
 	act.moveToElement(rightClickButton2).contextClick().perform();
 	Thread.sleep(2000);
-	
+
 	act.moveToElement(rightClickButton3).contextClick().perform();
 	Thread.sleep(2000);
-	
+
 	//driver.findElement(By.xpath("//div[text()='Yes']")).click();
 	//Thread.sleep(2000);
-	
-	
-	
+
+
+
 	}
 
 }

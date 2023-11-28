@@ -16,7 +16,7 @@ public class IsEnabledMethod {
 	WebElement lgnbtn = driver.findElement(By.xpath("//button[@class='_acan _acap _acas _aj1-']"));
 	Thread.sleep(2000);
 	System.out.println("before value passing to username and password textfield:");
-	
+
 	System.out.println(lgnbtn.isEnabled());
 	driver.findElement(By.name("username")).sendKeys("admin");
 	driver.findElement(By.name("password")).sendKeys("admin@123");

@@ -13,11 +13,11 @@ public class HandlingDisableElements {
 		WebDriver	driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		
+
 		driver.get("https://demoapps.qspiders.com/");
-		
+
 		driver.findElement(By.xpath("//p[text()='Disabled Mode']")).click();
-		 
+
 		JavascriptExecutor jse=(JavascriptExecutor)driver;
 		jse.executeScript("document.getElementById('name').value='Smita'");
 		Thread.sleep(2000);
@@ -25,39 +25,39 @@ public class HandlingDisableElements {
 		Thread.sleep(2000);
 		jse.executeScript("document.getElementById('password').value='Pass@123'\r\n"
 				+ "");
-		
+
 		WebElement registerbtn = driver.findElement(By.xpath("//button[text()='Register']"));
 		WebElement loginbtn = driver.findElement(By.xpath("//a[contains(@class,'bg-orange-5')]"));
-		
+
 		//for resgister btn
 		Thread.sleep(2000);
 		if(registerbtn.isDisplayed())
 		{
-			
+
 		jse.executeScript("arguments[0].click()",registerbtn);
 		System.out.println("click");
 		}
 		else
 		{
 			System.out.println("not click");
-			
+
 		}
-		
+
 		//for login btn
 		Thread.sleep(2000);
 		if(loginbtn.isDisplayed())
 		{
-			
+
 		jse.executeScript("arguments[0].click()",loginbtn);
 		System.out.println("click");
 		}
 		else
 		{
 			System.out.println("not click");
-			
+
 		}
-		
-		
+
+
 	}
 
 }

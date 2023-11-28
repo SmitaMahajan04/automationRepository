@@ -18,13 +18,13 @@ public class OmayoBloggerSpot {
 		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Dropdown']")));
 		//driver.findElement(By.xpath("//button[text()='Dropdown']")).click();
-		
+
 		WebElement dropDown = driver.findElement(By.xpath("//button[text()='Dropdown']"));
 		explicitWait(driver,30,dropDown).click();
-		
+
 		WebElement flipCart=driver.findElement(By.xpath("//a[text()='Flipkart']"));
 		explicitWait(driver, 30, flipCart).click();
-		
+
 	}
 	public  static WebElement  explicitWait(WebDriver driver,long sec,WebElement ele)
 	{

@@ -17,7 +17,7 @@ public class getTitleMethod1 {
 	//	System.out.println( driver.getPageSource());
 		Thread.sleep(2000);
 	driver.close();
-		
+
 	}
 
 }

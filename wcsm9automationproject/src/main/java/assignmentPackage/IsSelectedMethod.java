@@ -19,9 +19,9 @@ public class IsSelectedMethod {
 		chkbx.click();
 		System.out.println("before selecting check box:");
 		System.out.println(chkbx.isSelected());
-		
-		
-		
+
+
+
 		}
 
 

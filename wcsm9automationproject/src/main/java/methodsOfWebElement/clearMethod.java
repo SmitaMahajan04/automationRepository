@@ -19,7 +19,7 @@ public class clearMethod {
 		passTB.sendKeys("admin@123");
 		usnTB.clear();
 		passTB.clear();
-		
+
 	}
 
 

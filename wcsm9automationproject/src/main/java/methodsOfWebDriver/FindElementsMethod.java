@@ -22,7 +22,7 @@ public class FindElementsMethod {
 		String options = op.getText();
 		Thread.sleep(2000);
 		System.out.println(options);
-		
+
 	}
 	}
 

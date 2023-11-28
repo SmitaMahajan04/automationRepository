@@ -14,7 +14,7 @@ public class SelectCopyAndPasteOnBluestone {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("https://www.bluestone.com/");
-		
+
 		WebElement wtchjwell = driver.findElement(By.xpath("//a[text()='Watch Jewellery ']"));
 		Actions act = new Actions(driver);
 		act.moveToElement(wtchjwell).perform();
