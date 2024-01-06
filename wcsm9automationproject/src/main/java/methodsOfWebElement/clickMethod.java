@@ -12,7 +12,7 @@ public class clickMethod {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("http://desktop-2lhagot/login.do");
+		driver.get("http://smitamahajan/login.do");
 		WebElement usnTB = driver.findElement(By.name("username"));
 		WebElement passTB = driver.findElement(By.name("pwd"));
 		usnTB.sendKeys("admin");

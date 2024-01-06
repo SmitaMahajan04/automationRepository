@@ -1,29 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-28T12:53:12 IST" name="Suite" finished-at="2023-11-28T12:53:51 IST" duration-ms="38783">
+  <suite started-at="2023-12-07T13:06:14 IST" name="Default suite" finished-at="2023-12-07T13:07:08 IST" duration-ms="53634">
     <groups>
     </groups>
-    <test started-at="2023-11-28T12:53:12 IST" name="Test" finished-at="2023-11-28T12:53:51 IST" duration-ms="38783">
-      <class name="testNGExecutionPackage.JavaTest">
-        <test-method signature="java_method()[pri:0, instance:testNGExecutionPackage.JavaTest@27462a88]" started-at="2023-11-28T12:53:12 IST" name="java_method" finished-at="2023-11-28T12:53:27 IST" duration-ms="15045" status="PASS">
+    <test started-at="2023-12-07T13:06:14 IST" name="Default test" finished-at="2023-12-07T13:07:08 IST" duration-ms="53634">
+      <class name="testNGAnnotations_Flags.ActiTimeDataProviderFlag">
+        <test-method signature="invalidLoginmethod(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations_Flags.ActiTimeDataProviderFlag@4efac082]" started-at="2023-12-07T13:06:15 IST" name="invalidLoginmethod" data-provider="TestData" finished-at="2023-12-07T13:06:26 IST" duration-ms="11270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad_min]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mana_ger]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- java_method -->
-      </class> <!-- testNGExecutionPackage.JavaTest -->
-      <class name="testNGExecutionPackage.SqlTest">
-        <test-method signature="sql_method()[pri:0, instance:testNGExecutionPackage.SqlTest@4efac082]" started-at="2023-11-28T12:53:38 IST" name="sql_method" finished-at="2023-11-28T12:53:51 IST" duration-ms="13167" status="PASS">
+        </test-method> <!-- invalidLoginmethod -->
+        <test-method signature="invalidLoginmethod(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations_Flags.ActiTimeDataProviderFlag@4efac082]" started-at="2023-12-07T13:06:26 IST" name="invalidLoginmethod" data-provider="TestData" finished-at="2023-12-07T13:06:36 IST" duration-ms="10413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mana123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sql_method -->
-      </class> <!-- testNGExecutionPackage.SqlTest -->
-      <class name="testNGExecutionPackage.SeleniumTest">
-        <test-method signature="selenium_method()[pri:0, instance:testNGExecutionPackage.SeleniumTest@59505b48]" started-at="2023-11-28T12:53:27 IST" name="selenium_method" finished-at="2023-11-28T12:53:38 IST" duration-ms="10491" status="PASS">
+        </test-method> <!-- invalidLoginmethod -->
+        <test-method signature="invalidLoginmethod(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations_Flags.ActiTimeDataProviderFlag@4efac082]" started-at="2023-12-07T13:06:36 IST" name="invalidLoginmethod" data-provider="TestData" finished-at="2023-12-07T13:06:47 IST" duration-ms="10523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[456min]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456ger]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selenium_method -->
-      </class> <!-- testNGExecutionPackage.SeleniumTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- invalidLoginmethod -->
+        <test-method signature="invalidLoginmethod(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations_Flags.ActiTimeDataProviderFlag@4efac082]" started-at="2023-12-07T13:06:47 IST" name="invalidLoginmethod" data-provider="TestData" finished-at="2023-12-07T13:06:58 IST" duration-ms="10792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[min]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[add]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginmethod -->
+        <test-method signature="invalidLoginmethod(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations_Flags.ActiTimeDataProviderFlag@4efac082]" started-at="2023-12-07T13:06:58 IST" name="invalidLoginmethod" data-provider="TestData" finished-at="2023-12-07T13:07:08 IST" duration-ms="10557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginmethod -->
+      </class> <!-- testNGAnnotations_Flags.ActiTimeDataProviderFlag -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

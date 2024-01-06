@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite" >
+  <test thread-count="5" parallel="tests" name="ChromeTest">
+    <classes>
+      <class name="testNGExecutionPackage.SelectTest"/>
+      
+      <parameter name="Browser" value="chrome"></parameter>
+      <parameter name="Url" value="http://desktop-nadpcq4/login.do"></parameter>
+      <parameter name="Username" value="admin"></parameter>
+      <parameter name="Password" value="manager"></parameter>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" parallel="tests" name="FirefoxTest">
+    <classes>
+      <class name="testNGExecutionPackage.SelectTest"/>
+      
+      <parameter name="Browser" value="firefox"></parameter>
+      <parameter name="Url" value="http://desktop-nadpcq4/login.do"></parameter>
+      <parameter name="Username" value="admin"></parameter>
+      <parameter name="Password" value="manager"></parameter>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
